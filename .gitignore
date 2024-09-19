@@ -89,3 +89,7 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+hierarchy.txt
+links.json
+sitemap.md

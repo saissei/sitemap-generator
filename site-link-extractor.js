@@ -71,7 +71,7 @@ export async function extractLinksAndTitles(
     }
 
     const titles = $('title')
-      .map((_, title) => $(title).text().trim())
+      .map((_, title) => $(title).text().trim().replace(/\n/g, ''))
       .get();
 
     return { links, titles };
